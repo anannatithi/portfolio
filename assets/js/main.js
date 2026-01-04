@@ -37,7 +37,6 @@
   /**
    * Hide mobile nav on same-page/hash links
    */
-  document.querySelector('.main').style.opacity = 1;
   document.querySelectorAll('#navmenu a').forEach(navmenu => {
     navmenu.addEventListener('click', () => {
       if (document.querySelector('.mobile-nav-active')) {
